@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C408E90C18A5CBAB00FE2FFB /* amazingRace.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E8F718A5CBAB00FE2FFB /* amazingRace.jpeg */; };
+		C408E90D18A5CBAB00FE2FFB /* amishMafia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E8F818A5CBAB00FE2FFB /* amishMafia.jpeg */; };
+		C408E90E18A5CBAB00FE2FFB /* banshee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C408E8F918A5CBAB00FE2FFB /* banshee.jpg */; };
+		C408E90F18A5CBAB00FE2FFB /* barRescue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C408E8FA18A5CBAB00FE2FFB /* barRescue.jpg */; };
+		C408E91018A5CBAB00FE2FFB /* batesMotel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E8FB18A5CBAB00FE2FFB /* batesMotel.jpeg */; };
+		C408E91118A5CBAB00FE2FFB /* blackSails.gif in Resources */ = {isa = PBXBuildFile; fileRef = C408E8FC18A5CBAB00FE2FFB /* blackSails.gif */; };
+		C408E91218A5CBAB00FE2FFB /* dirtyjobs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C408E8FD18A5CBAB00FE2FFB /* dirtyjobs.jpg */; };
+		C408E91318A5CBAB00FE2FFB /* entourage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E8FE18A5CBAB00FE2FFB /* entourage.jpeg */; };
+		C408E91418A5CBAB00FE2FFB /* homeland.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E8FF18A5CBAB00FE2FFB /* homeland.jpeg */; };
+		C408E91518A5CBAB00FE2FFB /* luck.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90018A5CBAB00FE2FFB /* luck.jpeg */; };
+		C408E91618A5CBAB00FE2FFB /* magicCity.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90118A5CBAB00FE2FFB /* magicCity.jpeg */; };
+		C408E91718A5CBAB00FE2FFB /* modernFamily.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90218A5CBAB00FE2FFB /* modernFamily.jpeg */; };
+		C408E91818A5CBAB00FE2FFB /* moonshiners.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90318A5CBAB00FE2FFB /* moonshiners.jpeg */; };
+		C408E91918A5CBAB00FE2FFB /* realHusbands.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90418A5CBAB00FE2FFB /* realHusbands.jpeg */; };
+		C408E91A18A5CBAB00FE2FFB /* returnDead.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90518A5CBAB00FE2FFB /* returnDead.jpeg */; };
+		C408E91B18A5CBAB00FE2FFB /* scoobyDoo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90618A5CBAB00FE2FFB /* scoobyDoo.jpeg */; };
+		C408E91C18A5CBAB00FE2FFB /* spartacus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90718A5CBAB00FE2FFB /* spartacus.jpg */; };
+		C408E91D18A5CBAB00FE2FFB /* strikeBack.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90818A5CBAB00FE2FFB /* strikeBack.jpeg */; };
+		C408E91E18A5CBAB00FE2FFB /* theAmericans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90918A5CBAB00FE2FFB /* theAmericans.jpg */; };
+		C408E91F18A5CBAB00FE2FFB /* trueBlood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90A18A5CBAB00FE2FFB /* trueBlood.jpeg */; };
+		C408E92018A5CBAB00FE2FFB /* washingtonFootball.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C408E90B18A5CBAB00FE2FFB /* washingtonFootball.jpeg */; };
+		C481B1EC18A4692D00C1717D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C481B1EB18A4692D00C1717D /* Foundation.framework */; };
+		C481B1EE18A4692D00C1717D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C481B1ED18A4692D00C1717D /* CoreGraphics.framework */; };
+		C481B1F018A4692D00C1717D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C481B1EF18A4692D00C1717D /* UIKit.framework */; };
+		C481B1F618A4692D00C1717D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C481B1F418A4692D00C1717D /* InfoPlist.strings */; };
+		C481B1F818A4692D00C1717D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C481B1F718A4692D00C1717D /* main.m */; };
+		C481B1FC18A4692D00C1717D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C481B1FB18A4692D00C1717D /* AppDelegate.m */; };
+		C481B1FF18A4692D00C1717D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C481B1FD18A4692D00C1717D /* Main.storyboard */; };
+		C481B20218A4692D00C1717D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C481B20118A4692D00C1717D /* ViewController.m */; };
+		C481B20418A4692D00C1717D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C481B20318A4692D00C1717D /* Images.xcassets */; };
+		C481B20B18A4692D00C1717D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C481B20A18A4692D00C1717D /* XCTest.framework */; };
+		C481B20C18A4692D00C1717D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C481B1EB18A4692D00C1717D /* Foundation.framework */; };
+		C481B20D18A4692D00C1717D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C481B1EF18A4692D00C1717D /* UIKit.framework */; };
+		C481B21518A4692D00C1717D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C481B21318A4692D00C1717D /* InfoPlist.strings */; };
+		C481B21718A4692D00C1717D /* MdfWeekOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C481B21618A4692D00C1717D /* MdfWeekOneTests.m */; };
+		C481B22218A47C3E00C1717D /* TvShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C481B22118A47C3E00C1717D /* TvShowViewController.m */; };
+		C481B22518A4841D00C1717D /* TvCustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C481B22418A4841D00C1717D /* TvCustomClass.m */; };
+		C481B22818A48D3B00C1717D /* TvShowCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C481B22718A48D3B00C1717D /* TvShowCustomCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C481B20E18A4692D00C1717D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C481B1E018A4692D00C1717D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C481B1E718A4692D00C1717D;
+			remoteInfo = MdfWeekOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C408E8F718A5CBAB00FE2FFB /* amazingRace.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = amazingRace.jpeg; path = Images/amazingRace.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E8F818A5CBAB00FE2FFB /* amishMafia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = amishMafia.jpeg; path = Images/amishMafia.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E8F918A5CBAB00FE2FFB /* banshee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banshee.jpg; path = Images/banshee.jpg; sourceTree = SOURCE_ROOT; };
+		C408E8FA18A5CBAB00FE2FFB /* barRescue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = barRescue.jpg; path = Images/barRescue.jpg; sourceTree = SOURCE_ROOT; };
+		C408E8FB18A5CBAB00FE2FFB /* batesMotel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = batesMotel.jpeg; path = Images/batesMotel.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E8FC18A5CBAB00FE2FFB /* blackSails.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = blackSails.gif; path = Images/blackSails.gif; sourceTree = SOURCE_ROOT; };
+		C408E8FD18A5CBAB00FE2FFB /* dirtyjobs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dirtyjobs.jpg; path = Images/dirtyjobs.jpg; sourceTree = SOURCE_ROOT; };
+		C408E8FE18A5CBAB00FE2FFB /* entourage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = entourage.jpeg; path = Images/entourage.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E8FF18A5CBAB00FE2FFB /* homeland.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = homeland.jpeg; path = Images/homeland.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E90018A5CBAB00FE2FFB /* luck.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = luck.jpeg; path = Images/luck.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E90118A5CBAB00FE2FFB /* magicCity.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = magicCity.jpeg; path = Images/magicCity.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E90218A5CBAB00FE2FFB /* modernFamily.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = modernFamily.jpeg; path = Images/modernFamily.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E90318A5CBAB00FE2FFB /* moonshiners.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moonshiners.jpeg; path = Images/moonshiners.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E90418A5CBAB00FE2FFB /* realHusbands.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = realHusbands.jpeg; path = Images/realHusbands.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E90518A5CBAB00FE2FFB /* returnDead.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = returnDead.jpeg; path = Images/returnDead.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E90618A5CBAB00FE2FFB /* scoobyDoo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = scoobyDoo.jpeg; path = Images/scoobyDoo.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E90718A5CBAB00FE2FFB /* spartacus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spartacus.jpg; path = Images/spartacus.jpg; sourceTree = SOURCE_ROOT; };
+		C408E90818A5CBAB00FE2FFB /* strikeBack.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = strikeBack.jpeg; path = Images/strikeBack.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E90918A5CBAB00FE2FFB /* theAmericans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = theAmericans.jpg; path = Images/theAmericans.jpg; sourceTree = SOURCE_ROOT; };
+		C408E90A18A5CBAB00FE2FFB /* trueBlood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = trueBlood.jpeg; path = Images/trueBlood.jpeg; sourceTree = SOURCE_ROOT; };
+		C408E90B18A5CBAB00FE2FFB /* washingtonFootball.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = washingtonFootball.jpeg; path = Images/washingtonFootball.jpeg; sourceTree = SOURCE_ROOT; };
+		C481B1E818A4692D00C1717D /* MdfWeekOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MdfWeekOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C481B1EB18A4692D00C1717D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C481B1ED18A4692D00C1717D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C481B1EF18A4692D00C1717D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C481B1F318A4692D00C1717D /* MdfWeekOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MdfWeekOne-Info.plist"; sourceTree = "<group>"; };
+		C481B1F518A4692D00C1717D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C481B1F718A4692D00C1717D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C481B1F918A4692D00C1717D /* MdfWeekOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MdfWeekOne-Prefix.pch"; sourceTree = "<group>"; };
+		C481B1FA18A4692D00C1717D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C481B1FB18A4692D00C1717D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C481B1FE18A4692D00C1717D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C481B20018A4692D00C1717D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C481B20118A4692D00C1717D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C481B20318A4692D00C1717D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C481B20918A4692D00C1717D /* MdfWeekOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MdfWeekOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C481B20A18A4692D00C1717D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C481B21218A4692D00C1717D /* MdfWeekOneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MdfWeekOneTests-Info.plist"; sourceTree = "<group>"; };
+		C481B21418A4692D00C1717D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C481B21618A4692D00C1717D /* MdfWeekOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MdfWeekOneTests.m; sourceTree = "<group>"; };
+		C481B22018A47C3E00C1717D /* TvShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TvShowViewController.h; sourceTree = "<group>"; };
+		C481B22118A47C3E00C1717D /* TvShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TvShowViewController.m; sourceTree = "<group>"; };
+		C481B22318A4841D00C1717D /* TvCustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TvCustomClass.h; sourceTree = "<group>"; };
+		C481B22418A4841D00C1717D /* TvCustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TvCustomClass.m; sourceTree = "<group>"; };
+		C481B22618A48D3B00C1717D /* TvShowCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TvShowCustomCell.h; sourceTree = "<group>"; };
+		C481B22718A48D3B00C1717D /* TvShowCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TvShowCustomCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C481B1E518A4692D00C1717D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C481B1EE18A4692D00C1717D /* CoreGraphics.framework in Frameworks */,
+				C481B1F018A4692D00C1717D /* UIKit.framework in Frameworks */,
+				C481B1EC18A4692D00C1717D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C481B20618A4692D00C1717D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C481B20B18A4692D00C1717D /* XCTest.framework in Frameworks */,
+				C481B20D18A4692D00C1717D /* UIKit.framework in Frameworks */,
+				C481B20C18A4692D00C1717D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C481B1DF18A4692D00C1717D = {
+			isa = PBXGroup;
+			children = (
+				C481B1F118A4692D00C1717D /* MdfWeekOne */,
+				C481B21018A4692D00C1717D /* MdfWeekOneTests */,
+				C481B1EA18A4692D00C1717D /* Frameworks */,
+				C481B1E918A4692D00C1717D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C481B1E918A4692D00C1717D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C481B1E818A4692D00C1717D /* MdfWeekOne.app */,
+				C481B20918A4692D00C1717D /* MdfWeekOneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C481B1EA18A4692D00C1717D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C481B1EB18A4692D00C1717D /* Foundation.framework */,
+				C481B1ED18A4692D00C1717D /* CoreGraphics.framework */,
+				C481B1EF18A4692D00C1717D /* UIKit.framework */,
+				C481B20A18A4692D00C1717D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C481B1F118A4692D00C1717D /* MdfWeekOne */ = {
+			isa = PBXGroup;
+			children = (
+				C481B25318A4978900C1717D /* Images */,
+				C481B1FA18A4692D00C1717D /* AppDelegate.h */,
+				C481B1FB18A4692D00C1717D /* AppDelegate.m */,
+				C481B1FD18A4692D00C1717D /* Main.storyboard */,
+				C481B20018A4692D00C1717D /* ViewController.h */,
+				C481B20118A4692D00C1717D /* ViewController.m */,
+				C408E8F718A5CBAB00FE2FFB /* amazingRace.jpeg */,
+				C408E8F818A5CBAB00FE2FFB /* amishMafia.jpeg */,
+				C408E8F918A5CBAB00FE2FFB /* banshee.jpg */,
+				C408E8FA18A5CBAB00FE2FFB /* barRescue.jpg */,
+				C408E8FB18A5CBAB00FE2FFB /* batesMotel.jpeg */,
+				C408E8FC18A5CBAB00FE2FFB /* blackSails.gif */,
+				C408E8FD18A5CBAB00FE2FFB /* dirtyjobs.jpg */,
+				C408E8FE18A5CBAB00FE2FFB /* entourage.jpeg */,
+				C408E8FF18A5CBAB00FE2FFB /* homeland.jpeg */,
+				C408E90018A5CBAB00FE2FFB /* luck.jpeg */,
+				C408E90118A5CBAB00FE2FFB /* magicCity.jpeg */,
+				C408E90218A5CBAB00FE2FFB /* modernFamily.jpeg */,
+				C408E90318A5CBAB00FE2FFB /* moonshiners.jpeg */,
+				C408E90418A5CBAB00FE2FFB /* realHusbands.jpeg */,
+				C408E90518A5CBAB00FE2FFB /* returnDead.jpeg */,
+				C408E90618A5CBAB00FE2FFB /* scoobyDoo.jpeg */,
+				C408E90718A5CBAB00FE2FFB /* spartacus.jpg */,
+				C408E90818A5CBAB00FE2FFB /* strikeBack.jpeg */,
+				C408E90918A5CBAB00FE2FFB /* theAmericans.jpg */,
+				C408E90A18A5CBAB00FE2FFB /* trueBlood.jpeg */,
+				C408E90B18A5CBAB00FE2FFB /* washingtonFootball.jpeg */,
+				C481B20318A4692D00C1717D /* Images.xcassets */,
+				C481B1F218A4692D00C1717D /* Supporting Files */,
+				C481B22018A47C3E00C1717D /* TvShowViewController.h */,
+				C481B22118A47C3E00C1717D /* TvShowViewController.m */,
+				C481B22318A4841D00C1717D /* TvCustomClass.h */,
+				C481B22418A4841D00C1717D /* TvCustomClass.m */,
+				C481B22618A48D3B00C1717D /* TvShowCustomCell.h */,
+				C481B22718A48D3B00C1717D /* TvShowCustomCell.m */,
+			);
+			path = MdfWeekOne;
+			sourceTree = "<group>";
+		};
+		C481B1F218A4692D00C1717D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C481B1F318A4692D00C1717D /* MdfWeekOne-Info.plist */,
+				C481B1F418A4692D00C1717D /* InfoPlist.strings */,
+				C481B1F718A4692D00C1717D /* main.m */,
+				C481B1F918A4692D00C1717D /* MdfWeekOne-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C481B21018A4692D00C1717D /* MdfWeekOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C481B21618A4692D00C1717D /* MdfWeekOneTests.m */,
+				C481B21118A4692D00C1717D /* Supporting Files */,
+			);
+			path = MdfWeekOneTests;
+			sourceTree = "<group>";
+		};
+		C481B21118A4692D00C1717D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C481B21218A4692D00C1717D /* MdfWeekOneTests-Info.plist */,
+				C481B21318A4692D00C1717D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C481B25318A4978900C1717D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C481B1E718A4692D00C1717D /* MdfWeekOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C481B21A18A4692D00C1717D /* Build configuration list for PBXNativeTarget "MdfWeekOne" */;
+			buildPhases = (
+				C481B1E418A4692D00C1717D /* Sources */,
+				C481B1E518A4692D00C1717D /* Frameworks */,
+				C481B1E618A4692D00C1717D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MdfWeekOne;
+			productName = MdfWeekOne;
+			productReference = C481B1E818A4692D00C1717D /* MdfWeekOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C481B20818A4692D00C1717D /* MdfWeekOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C481B21D18A4692D00C1717D /* Build configuration list for PBXNativeTarget "MdfWeekOneTests" */;
+			buildPhases = (
+				C481B20518A4692D00C1717D /* Sources */,
+				C481B20618A4692D00C1717D /* Frameworks */,
+				C481B20718A4692D00C1717D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C481B20F18A4692D00C1717D /* PBXTargetDependency */,
+			);
+			name = MdfWeekOneTests;
+			productName = MdfWeekOneTests;
+			productReference = C481B20918A4692D00C1717D /* MdfWeekOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C481B1E018A4692D00C1717D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Steven Roseman";
+				TargetAttributes = {
+					C481B20818A4692D00C1717D = {
+						TestTargetID = C481B1E718A4692D00C1717D;
+					};
+				};
+			};
+			buildConfigurationList = C481B1E318A4692D00C1717D /* Build configuration list for PBXProject "MdfWeekOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C481B1DF18A4692D00C1717D;
+			productRefGroup = C481B1E918A4692D00C1717D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C481B1E718A4692D00C1717D /* MdfWeekOne */,
+				C481B20818A4692D00C1717D /* MdfWeekOneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C481B1E618A4692D00C1717D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C408E91318A5CBAB00FE2FFB /* entourage.jpeg in Resources */,
+				C408E90E18A5CBAB00FE2FFB /* banshee.jpg in Resources */,
+				C408E91718A5CBAB00FE2FFB /* modernFamily.jpeg in Resources */,
+				C408E91A18A5CBAB00FE2FFB /* returnDead.jpeg in Resources */,
+				C481B20418A4692D00C1717D /* Images.xcassets in Resources */,
+				C481B1F618A4692D00C1717D /* InfoPlist.strings in Resources */,
+				C408E91D18A5CBAB00FE2FFB /* strikeBack.jpeg in Resources */,
+				C408E91C18A5CBAB00FE2FFB /* spartacus.jpg in Resources */,
+				C408E91018A5CBAB00FE2FFB /* batesMotel.jpeg in Resources */,
+				C408E90C18A5CBAB00FE2FFB /* amazingRace.jpeg in Resources */,
+				C408E91118A5CBAB00FE2FFB /* blackSails.gif in Resources */,
+				C408E91B18A5CBAB00FE2FFB /* scoobyDoo.jpeg in Resources */,
+				C408E90F18A5CBAB00FE2FFB /* barRescue.jpg in Resources */,
+				C408E91818A5CBAB00FE2FFB /* moonshiners.jpeg in Resources */,
+				C408E90D18A5CBAB00FE2FFB /* amishMafia.jpeg in Resources */,
+				C408E91418A5CBAB00FE2FFB /* homeland.jpeg in Resources */,
+				C408E92018A5CBAB00FE2FFB /* washingtonFootball.jpeg in Resources */,
+				C408E91218A5CBAB00FE2FFB /* dirtyjobs.jpg in Resources */,
+				C408E91E18A5CBAB00FE2FFB /* theAmericans.jpg in Resources */,
+				C408E91918A5CBAB00FE2FFB /* realHusbands.jpeg in Resources */,
+				C408E91518A5CBAB00FE2FFB /* luck.jpeg in Resources */,
+				C408E91F18A5CBAB00FE2FFB /* trueBlood.jpeg in Resources */,
+				C408E91618A5CBAB00FE2FFB /* magicCity.jpeg in Resources */,
+				C481B1FF18A4692D00C1717D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C481B20718A4692D00C1717D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C481B21518A4692D00C1717D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C481B1E418A4692D00C1717D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C481B20218A4692D00C1717D /* ViewController.m in Sources */,
+				C481B1FC18A4692D00C1717D /* AppDelegate.m in Sources */,
+				C481B1F818A4692D00C1717D /* main.m in Sources */,
+				C481B22818A48D3B00C1717D /* TvShowCustomCell.m in Sources */,
+				C481B22518A4841D00C1717D /* TvCustomClass.m in Sources */,
+				C481B22218A47C3E00C1717D /* TvShowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C481B20518A4692D00C1717D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C481B21718A4692D00C1717D /* MdfWeekOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C481B20F18A4692D00C1717D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C481B1E718A4692D00C1717D /* MdfWeekOne */;
+			targetProxy = C481B20E18A4692D00C1717D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C481B1F418A4692D00C1717D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C481B1F518A4692D00C1717D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C481B1FD18A4692D00C1717D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C481B1FE18A4692D00C1717D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C481B21318A4692D00C1717D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C481B21418A4692D00C1717D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C481B21818A4692D00C1717D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C481B21918A4692D00C1717D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C481B21B18A4692D00C1717D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MdfWeekOne/MdfWeekOne-Prefix.pch";
+				INFOPLIST_FILE = "MdfWeekOne/MdfWeekOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C481B21C18A4692D00C1717D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MdfWeekOne/MdfWeekOne-Prefix.pch";
+				INFOPLIST_FILE = "MdfWeekOne/MdfWeekOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C481B21E18A4692D00C1717D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MdfWeekOne.app/MdfWeekOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MdfWeekOne/MdfWeekOne-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MdfWeekOneTests/MdfWeekOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C481B21F18A4692D00C1717D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MdfWeekOne.app/MdfWeekOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MdfWeekOne/MdfWeekOne-Prefix.pch";
+				INFOPLIST_FILE = "MdfWeekOneTests/MdfWeekOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C481B1E318A4692D00C1717D /* Build configuration list for PBXProject "MdfWeekOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C481B21818A4692D00C1717D /* Debug */,
+				C481B21918A4692D00C1717D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C481B21A18A4692D00C1717D /* Build configuration list for PBXNativeTarget "MdfWeekOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C481B21B18A4692D00C1717D /* Debug */,
+				C481B21C18A4692D00C1717D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C481B21D18A4692D00C1717D /* Build configuration list for PBXNativeTarget "MdfWeekOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C481B21E18A4692D00C1717D /* Debug */,
+				C481B21F18A4692D00C1717D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C481B1E018A4692D00C1717D /* Project object */;
+}
