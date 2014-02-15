@@ -15,7 +15,7 @@
     NSArray *teamArray;
 }
 
-@property (nonatomic, strong) FavoriteTeamClass *favoriteTeam;
+@property (nonatomic, strong)FavoriteTeamClass *favoriteTeam;
 
 -(IBAction)push;
 @end

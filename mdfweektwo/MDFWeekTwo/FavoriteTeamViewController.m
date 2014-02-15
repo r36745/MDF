@@ -49,7 +49,9 @@
     team3.sportsTeamDetail = @"Team poised to win Stanley Cup";
     team3.teamImage = [UIImage imageNamed:@"capitals.jpg"];
     
-    teamArray = [NSArray arrayWithObjects:team1, team2, team3, nil];
+    teamArray = [[NSArray alloc]initWithObjects:team1, team2, team3, nil];
+    
+    NSLog(@"%@", teamArray);
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
@@ -57,13 +59,15 @@
 
 - (IBAction)push
 {
-    if ([teamArray count] > 0)
-    {
-        FavortieTeamView.image = self.favoriteTeam.teamImage;
-        teamLabel.text = self.favoriteTeam.myTeamLabel;
-        teamDetailsLabel.text = self.favoriteTeam.sportsTeamDetail;
+    FavoriteTeamClass *teamClass = teamArray;
         
-    }
+    teamLabel.text = teamClass;
+       // teamDetailsLabel.text = [favoriteTeam sportsTeamDetail ];
+       // FavortieTeamView.image = [favoriteTeam teamImage ];
+    
+        
+        
+   
     
     
 }
