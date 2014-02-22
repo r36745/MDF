@@ -19,10 +19,10 @@
     return self;
 }
 
--(void)updateCellWithMapInfo:(NSString*)firstString secondString:(NSString*)secondString
+-(void)updateCellWithMapInfo:(NSString*)firstString
 {
     tblNamLabel.text = firstString;
-    tblLocalLabel.text = secondString;
+ 
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

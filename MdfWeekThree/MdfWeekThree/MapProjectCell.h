@@ -15,6 +15,6 @@
     IBOutlet UILabel *tblLocalLabel;
 }
 
--(void)updateCellWithMapInfo:(NSString*)firstString secondString:(NSString*)secondString;
+-(void)updateCellWithMapInfo:(NSString*)firstString;
 
 @end

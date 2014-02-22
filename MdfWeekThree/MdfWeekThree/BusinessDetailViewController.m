@@ -16,7 +16,7 @@
 @end
 
 @implementation BusinessDetailViewController
-@synthesize detailedMapView;
+@synthesize detailedMapView, totalBusiness;
 
 
 - (id)init
@@ -30,24 +30,36 @@
 
 - (void)viewDidLoad
 {
+    NSMutableArray *allPins = [[NSMutableArray alloc]init];
     
     
     
-    MKCoordinateSpan zoomSpan;
-    zoomSpan.latitudeDelta = 1.0f;
-    zoomSpan.longitudeDelta = 1.0f;
-    
-    detailedMapView.region = MKCoordinateRegionMake(self.currentSpotOnMap.businessLocation, zoomSpan);
-    
-    NSMutableArray *pinAnnotations = [[NSMutableArray alloc]init];
-    for (int i = 0; i<3; i++)
+    for ( int i = 0; i < totalBusiness.count; i++)
     {
+        
+        
+        
         MKPointAnnotation *point = [[MKPointAnnotation alloc]init];
-        point.coordinate = self.currentSpotOnMap.businessLocation;
-        point.title = self.currentSpotOnMap.businessName;
-        [pinAnnotations addObject:point];
+        
+        MapProjectClass *detailData = [totalBusiness objectAtIndex:i];
+        point.coordinate = CLLocationCoordinate2DMake(detailData.businessLocation.latitude, detailData.businessLocation.longitude);
+        point.title = detailData.businessName;
+        
+        
+        [allPins addObject:point];
+        
+        CLLocationCoordinate2D forZoom = detailData.businessLocation;
+        MKCoordinateSpan zoomSpan;
+        zoomSpan.latitudeDelta = 1.0f;
+        zoomSpan.longitudeDelta = 1.0f;
+        [detailedMapView setRegion:MKCoordinateRegionMake(forZoom, zoomSpan)animated:true];
     }
-    [detailedMapView addAnnotations:pinAnnotations];
+    [detailedMapView addAnnotations:allPins];
+    
+    
+    
+    
+    
     
     
     
@@ -57,7 +69,7 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-   }
+}
 
 
 - (void)didReceiveMemoryWarning

@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import "MapProjectClass.h"
+#import "MapProjectViewController.h"
 
 @interface BusinessDetailViewController : UIViewController
 
 {
-    
+   
 }
 @property (weak, nonatomic) IBOutlet MKMapView *detailedMapView;
 @property (nonatomic, strong)MapProjectClass *currentSpotOnMap;
+@property (nonatomic, strong)NSMutableArray *totalBusiness;
+
 @end
