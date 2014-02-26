@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4B1DE9318BC1F9C00412215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B1DE9218BC1F9C00412215 /* Foundation.framework */; };
+		C4B1DE9518BC1F9C00412215 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B1DE9418BC1F9C00412215 /* CoreGraphics.framework */; };
+		C4B1DE9718BC1F9C00412215 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B1DE9618BC1F9C00412215 /* UIKit.framework */; };
+		C4B1DE9D18BC1F9C00412215 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4B1DE9B18BC1F9C00412215 /* InfoPlist.strings */; };
+		C4B1DE9F18BC1F9C00412215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B1DE9E18BC1F9C00412215 /* main.m */; };
+		C4B1DEA318BC1F9C00412215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B1DEA218BC1F9C00412215 /* AppDelegate.m */; };
+		C4B1DEA618BC1F9C00412215 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B1DEA418BC1F9C00412215 /* Main_iPhone.storyboard */; };
+		C4B1DEA918BC1F9C00412215 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B1DEA718BC1F9C00412215 /* Main_iPad.storyboard */; };
+		C4B1DEAC18BC1F9C00412215 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B1DEAB18BC1F9C00412215 /* FirstViewController.m */; };
+		C4B1DEAF18BC1F9C00412215 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B1DEAE18BC1F9C00412215 /* SecondViewController.m */; };
+		C4B1DEB118BC1F9C00412215 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B1DEB018BC1F9C00412215 /* Images.xcassets */; };
+		C4B1DEB818BC1F9C00412215 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B1DEB718BC1F9C00412215 /* XCTest.framework */; };
+		C4B1DEB918BC1F9C00412215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B1DE9218BC1F9C00412215 /* Foundation.framework */; };
+		C4B1DEBA18BC1F9C00412215 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B1DE9618BC1F9C00412215 /* UIKit.framework */; };
+		C4B1DEC218BC1F9C00412215 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4B1DEC018BC1F9C00412215 /* InfoPlist.strings */; };
+		C4B1DEC418BC1F9D00412215 /* MDFWeekFourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B1DEC318BC1F9C00412215 /* MDFWeekFourTests.m */; };
+		C4B1DECF18BC2A4000412215 /* FirstControllerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B1DECE18BC2A4000412215 /* FirstControllerClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4B1DEBB18BC1F9C00412215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B1DE8718BC1F9C00412215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4B1DE8E18BC1F9C00412215;
+			remoteInfo = MDFWeekFour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4B1DE8F18BC1F9C00412215 /* MDFWeekFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDFWeekFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B1DE9218BC1F9C00412215 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4B1DE9418BC1F9C00412215 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4B1DE9618BC1F9C00412215 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4B1DE9A18BC1F9C00412215 /* MDFWeekFour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDFWeekFour-Info.plist"; sourceTree = "<group>"; };
+		C4B1DE9C18BC1F9C00412215 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4B1DE9E18BC1F9C00412215 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4B1DEA018BC1F9C00412215 /* MDFWeekFour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDFWeekFour-Prefix.pch"; sourceTree = "<group>"; };
+		C4B1DEA118BC1F9C00412215 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4B1DEA218BC1F9C00412215 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4B1DEA518BC1F9C00412215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C4B1DEA818BC1F9C00412215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C4B1DEAA18BC1F9C00412215 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C4B1DEAB18BC1F9C00412215 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C4B1DEAD18BC1F9C00412215 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C4B1DEAE18BC1F9C00412215 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C4B1DEB018BC1F9C00412215 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4B1DEB618BC1F9C00412215 /* MDFWeekFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDFWeekFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B1DEB718BC1F9C00412215 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C4B1DEBF18BC1F9C00412215 /* MDFWeekFourTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDFWeekFourTests-Info.plist"; sourceTree = "<group>"; };
+		C4B1DEC118BC1F9C00412215 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4B1DEC318BC1F9C00412215 /* MDFWeekFourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDFWeekFourTests.m; sourceTree = "<group>"; };
+		C4B1DECD18BC2A4000412215 /* FirstControllerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstControllerClass.h; sourceTree = "<group>"; };
+		C4B1DECE18BC2A4000412215 /* FirstControllerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstControllerClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4B1DE8C18BC1F9C00412215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B1DE9518BC1F9C00412215 /* CoreGraphics.framework in Frameworks */,
+				C4B1DE9718BC1F9C00412215 /* UIKit.framework in Frameworks */,
+				C4B1DE9318BC1F9C00412215 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B1DEB318BC1F9C00412215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B1DEB818BC1F9C00412215 /* XCTest.framework in Frameworks */,
+				C4B1DEBA18BC1F9C00412215 /* UIKit.framework in Frameworks */,
+				C4B1DEB918BC1F9C00412215 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4B1DE8618BC1F9C00412215 = {
+			isa = PBXGroup;
+			children = (
+				C4B1DE9818BC1F9C00412215 /* MDFWeekFour */,
+				C4B1DEBD18BC1F9C00412215 /* MDFWeekFourTests */,
+				C4B1DE9118BC1F9C00412215 /* Frameworks */,
+				C4B1DE9018BC1F9C00412215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4B1DE9018BC1F9C00412215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B1DE8F18BC1F9C00412215 /* MDFWeekFour.app */,
+				C4B1DEB618BC1F9C00412215 /* MDFWeekFourTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4B1DE9118BC1F9C00412215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4B1DE9218BC1F9C00412215 /* Foundation.framework */,
+				C4B1DE9418BC1F9C00412215 /* CoreGraphics.framework */,
+				C4B1DE9618BC1F9C00412215 /* UIKit.framework */,
+				C4B1DEB718BC1F9C00412215 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4B1DE9818BC1F9C00412215 /* MDFWeekFour */ = {
+			isa = PBXGroup;
+			children = (
+				C4B1DEA118BC1F9C00412215 /* AppDelegate.h */,
+				C4B1DEA218BC1F9C00412215 /* AppDelegate.m */,
+				C4B1DEA418BC1F9C00412215 /* Main_iPhone.storyboard */,
+				C4B1DEA718BC1F9C00412215 /* Main_iPad.storyboard */,
+				C4B1DEAA18BC1F9C00412215 /* FirstViewController.h */,
+				C4B1DEAB18BC1F9C00412215 /* FirstViewController.m */,
+				C4B1DEAD18BC1F9C00412215 /* SecondViewController.h */,
+				C4B1DEAE18BC1F9C00412215 /* SecondViewController.m */,
+				C4B1DEB018BC1F9C00412215 /* Images.xcassets */,
+				C4B1DE9918BC1F9C00412215 /* Supporting Files */,
+				C4B1DECD18BC2A4000412215 /* FirstControllerClass.h */,
+				C4B1DECE18BC2A4000412215 /* FirstControllerClass.m */,
+			);
+			path = MDFWeekFour;
+			sourceTree = "<group>";
+		};
+		C4B1DE9918BC1F9C00412215 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B1DE9A18BC1F9C00412215 /* MDFWeekFour-Info.plist */,
+				C4B1DE9B18BC1F9C00412215 /* InfoPlist.strings */,
+				C4B1DE9E18BC1F9C00412215 /* main.m */,
+				C4B1DEA018BC1F9C00412215 /* MDFWeekFour-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4B1DEBD18BC1F9C00412215 /* MDFWeekFourTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4B1DEC318BC1F9C00412215 /* MDFWeekFourTests.m */,
+				C4B1DEBE18BC1F9C00412215 /* Supporting Files */,
+			);
+			path = MDFWeekFourTests;
+			sourceTree = "<group>";
+		};
+		C4B1DEBE18BC1F9C00412215 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B1DEBF18BC1F9C00412215 /* MDFWeekFourTests-Info.plist */,
+				C4B1DEC018BC1F9C00412215 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4B1DE8E18BC1F9C00412215 /* MDFWeekFour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B1DEC718BC1F9D00412215 /* Build configuration list for PBXNativeTarget "MDFWeekFour" */;
+			buildPhases = (
+				C4B1DE8B18BC1F9C00412215 /* Sources */,
+				C4B1DE8C18BC1F9C00412215 /* Frameworks */,
+				C4B1DE8D18BC1F9C00412215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDFWeekFour;
+			productName = MDFWeekFour;
+			productReference = C4B1DE8F18BC1F9C00412215 /* MDFWeekFour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4B1DEB518BC1F9C00412215 /* MDFWeekFourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B1DECA18BC1F9D00412215 /* Build configuration list for PBXNativeTarget "MDFWeekFourTests" */;
+			buildPhases = (
+				C4B1DEB218BC1F9C00412215 /* Sources */,
+				C4B1DEB318BC1F9C00412215 /* Frameworks */,
+				C4B1DEB418BC1F9C00412215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B1DEBC18BC1F9C00412215 /* PBXTargetDependency */,
+			);
+			name = MDFWeekFourTests;
+			productName = MDFWeekFourTests;
+			productReference = C4B1DEB618BC1F9C00412215 /* MDFWeekFourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4B1DE8718BC1F9C00412215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Steven Roseman";
+				TargetAttributes = {
+					C4B1DEB518BC1F9C00412215 = {
+						TestTargetID = C4B1DE8E18BC1F9C00412215;
+					};
+				};
+			};
+			buildConfigurationList = C4B1DE8A18BC1F9C00412215 /* Build configuration list for PBXProject "MDFWeekFour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4B1DE8618BC1F9C00412215;
+			productRefGroup = C4B1DE9018BC1F9C00412215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4B1DE8E18BC1F9C00412215 /* MDFWeekFour */,
+				C4B1DEB518BC1F9C00412215 /* MDFWeekFourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4B1DE8D18BC1F9C00412215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B1DEA918BC1F9C00412215 /* Main_iPad.storyboard in Resources */,
+				C4B1DEB118BC1F9C00412215 /* Images.xcassets in Resources */,
+				C4B1DEA618BC1F9C00412215 /* Main_iPhone.storyboard in Resources */,
+				C4B1DE9D18BC1F9C00412215 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B1DEB418BC1F9C00412215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B1DEC218BC1F9C00412215 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4B1DE8B18BC1F9C00412215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B1DEAF18BC1F9C00412215 /* SecondViewController.m in Sources */,
+				C4B1DECF18BC2A4000412215 /* FirstControllerClass.m in Sources */,
+				C4B1DEA318BC1F9C00412215 /* AppDelegate.m in Sources */,
+				C4B1DEAC18BC1F9C00412215 /* FirstViewController.m in Sources */,
+				C4B1DE9F18BC1F9C00412215 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B1DEB218BC1F9C00412215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B1DEC418BC1F9D00412215 /* MDFWeekFourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4B1DEBC18BC1F9C00412215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4B1DE8E18BC1F9C00412215 /* MDFWeekFour */;
+			targetProxy = C4B1DEBB18BC1F9C00412215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4B1DE9B18BC1F9C00412215 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B1DE9C18BC1F9C00412215 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4B1DEA418BC1F9C00412215 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B1DEA518BC1F9C00412215 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C4B1DEA718BC1F9C00412215 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B1DEA818BC1F9C00412215 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C4B1DEC018BC1F9C00412215 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B1DEC118BC1F9C00412215 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4B1DEC518BC1F9D00412215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4B1DEC618BC1F9D00412215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4B1DEC818BC1F9D00412215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDFWeekFour/MDFWeekFour-Prefix.pch";
+				INFOPLIST_FILE = "MDFWeekFour/MDFWeekFour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4B1DEC918BC1F9D00412215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDFWeekFour/MDFWeekFour-Prefix.pch";
+				INFOPLIST_FILE = "MDFWeekFour/MDFWeekFour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C4B1DECB18BC1F9D00412215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MDFWeekFour.app/MDFWeekFour";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDFWeekFour/MDFWeekFour-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MDFWeekFourTests/MDFWeekFourTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C4B1DECC18BC1F9D00412215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MDFWeekFour.app/MDFWeekFour";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDFWeekFour/MDFWeekFour-Prefix.pch";
+				INFOPLIST_FILE = "MDFWeekFourTests/MDFWeekFourTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4B1DE8A18BC1F9C00412215 /* Build configuration list for PBXProject "MDFWeekFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B1DEC518BC1F9D00412215 /* Debug */,
+				C4B1DEC618BC1F9D00412215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B1DEC718BC1F9D00412215 /* Build configuration list for PBXNativeTarget "MDFWeekFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B1DEC818BC1F9D00412215 /* Debug */,
+				C4B1DEC918BC1F9D00412215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4B1DECA18BC1F9D00412215 /* Build configuration list for PBXNativeTarget "MDFWeekFourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B1DECB18BC1F9D00412215 /* Debug */,
+				C4B1DECC18BC1F9D00412215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4B1DE8718BC1F9C00412215 /* Project object */;
+}
